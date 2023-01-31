@@ -1,54 +1,8 @@
-// let homeScoreBtnOne = document.getElementById("home-score-btn-1")
-// let guestScoreBtnOne = document.getElementById("guest-score-btn-1")
-
-// let homeScoreBtnTwo = document.getElementById("home-score-btn-2")
-// let guestScoreBtnTwo = document.getElementById("guest-score-btn-2")
-
-// let homeScoreBtnThree = document.getElementById("home-score-btn-3")
-// let guestScoreBtnThree = document.getElementById("guest-score-btn-3")
-
-// let homeScoreEl = document.getElementById("home-score")
-// let guestScoreEl = document.getElementById("guest-score")
-// let homeScore = 0
-// let guestScore = 0
-
-// function increaseHomeScoreOne(){
-//     homeScore = homeScore + 1
-//     homeScoreEl.textContent = homeScore
-// }
-
-// function increaseHomeScoreTwo(){
-//     homeScore = homeScore + 2
-//     homeScoreEl.textContent = homeScore
-// }
-
-// function increaseHomeScoreThree(){
-//     homeScore = homeScore + 3
-//     homeScoreEl.textContent = homeScore
-// }
-
-// function increaseGuestScoreOne(){
-//     guestScore = guestScore + 1
-//     guestScoreEl.textContent = guestScore
-// }
-
-// function increaseGuestScoreTwo(){
-//     guestScore = guestScore + 2
-//     guestScoreEl.textContent = guestScore
-// }
-
-// function increaseGuestScoreThree(){
-//     guestScore = guestScore + 3
-//     guestScoreEl.textContent = guestScore
-// }
-
-
-
 let homeScoreEl = document.getElementById("home-score")
 let homeScore = 0
 
-let guestScoreEl = document.getElementById("guest-score")
-let guestScore = 0
+let awayScoreEl = document.getElementById("away-score")
+let awayScore = 0
 
 let oneToHome = document.getElementById("onePointHome")
 let twoToHome = document.getElementById("twoPointHome")
@@ -74,19 +28,19 @@ function addThreePointToHome() {
   homeScoreEl.textContent = homeScore
 }
 
-function addOnePointToGuest() {
-  guestScore = guestScore + 1
-  guestScoreEl.textContent = guestScore
+function addOnePointToAway() {
+  awayScore = awayScore + 1
+  awayScoreEl.textContent = awayScore
 }
 
-function addTwoPointToGuest() {
-  guestScore = guestScore + 2
-  guestScoreEl.textContent = guestScore
+function addTwoPointToAway() {
+  awayScore = awayScore + 2
+  awayScoreEl.textContent = awayScore
 }
 
-function addThreePointToGuest() {
-  guestScore = guestScore + 3
-  guestScoreEl.textContent = guestScore
+function addThreePointToAway() {
+  awayScore = awayScore + 3
+  awayScoreEl.textContent = awayScore
 }
 
 

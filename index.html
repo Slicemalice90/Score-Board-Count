@@ -5,9 +5,11 @@
     <link href="https://fonts.cdnfonts.com/css/digital-7-mono" rel="stylesheet">
  </head>
  <body>
-    
-   
-    
+
+
+
+  <div class="outer-container">
+
     <div class="container">
       
       <h1>Score Board</h1>
@@ -17,17 +19,25 @@
         <div class="score">
           <h3>HOME</h3>
           <h2 class="point"  id="home-score">0</h2>
-          <button class="count-button" id="onePointHome" onclick="addOnePointToHome()">+ 1</button>
-          <button class="count-button" id="twoPointHome" onclick="addTwoPointToHome()">+ 2</button>
-          <button class="count-button" id="threePointHome" onclick="addThreePointToHome()">+ 3</button>
+
+          <div class="point-btn">
+            <button class="count-button" id="onePointHome" onclick="addOnePointToHome()">+ 1</button>
+            <button class="count-button" id="twoPointHome" onclick="addTwoPointToHome()">+ 2</button>
+            <button class="count-button" id="threePointHome" onclick="addThreePointToHome()">+ 3</button>
+          </div>
+          
         </div>
       
         <div class="score">
           <h3>AWAY</h3>
           <h2 class="point" id="away-score">0</h2>
-          <button class="count-button" id="onePointAway" onclick="addOnePointToAway()">+ 1</button>
-          <button class="count-button" id="twoPointAway" onclick="addTwoPointToAway()">+ 2</button>
-          <button class="count-button" id="threePointAway" onclick="addThreePointToAway()">+ 3</button>
+
+          <div class="point-btn">
+            <button class="count-button" id="onePointAway" onclick="addOnePointToAway()">+ 1</button>
+            <button class="count-button" id="twoPointAway" onclick="addTwoPointToAway()">+ 2</button>
+            <button class="count-button" id="threePointAway" onclick="addThreePointToAway()">+ 3</button>
+          </div>
+          
         </div>
 
       </div>
@@ -37,7 +47,7 @@
 
     </div>
 
-    
+  </div>
     
 
     <script src="index.js"></script>
